@@ -1,0 +1,4 @@
+1721225960634	Extract local variable 'objects'
+1721238189967	Extract local variable 'uniqueResultOptional'
+1721245913994	Extract local variable 'resultList'
+1721284910374	Rename type 'MainAppLoad'

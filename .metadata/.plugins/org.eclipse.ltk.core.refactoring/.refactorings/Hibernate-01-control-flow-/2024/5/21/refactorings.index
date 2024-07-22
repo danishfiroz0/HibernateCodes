@@ -1,0 +1,6 @@
+1716186077369	Rename package 'in.pwskills.nitin.bean'
+1716187078049	Extract local variable 'configuration'
+1716187108186	Extract local variable 'configure'
+1716187140391	Extract local variable 'sessionFactory'
+1716187163492	Extract local variable 'session'
+1716187510277	Extract local variable 'beginTransaction'

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+  body {
+  	padding:100px;
+    background-color: lightblue;  /* Sets the background color of the page */
+    text-align:center;
+    font-variant:small-caps
+  }
+</style>
+</head>
+<body>
+	Registration <span>Failed</span>
+</body>
+</html>

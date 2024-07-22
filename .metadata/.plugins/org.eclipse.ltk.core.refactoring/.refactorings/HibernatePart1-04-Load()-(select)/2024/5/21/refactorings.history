@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.pwskills.danish.main.MainApp&apos; to &apos;MainAppLoad&apos;&#x0A;- Original project: &apos;HibernatePart1-04-LoadSelect&apos;&#x0A;- Original element: &apos;com.pwskills.danish.main.MainApp&apos;&#x0A;- Renamed element: &apos;com.pwskills.danish.main.MainAppLoad&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MainApp&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.pwskills.danish.main{MainApp.java[MainApp" matchStrategy="1" name="MainAppLoad" qualified="false" references="true" similarDeclarations="false" stamp="1716253203673" textual="false" version="1.0"/>
+</session>

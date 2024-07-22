@@ -1,0 +1,33 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+header{
+  border-bottom: 8px groove #d9dbd3  ;
+  width:auto;
+  height:100px;
+  text-align:center;
+  background-color: aqua;
+  font:small-caps 48px arial;
+  padding-top: 40px;
+}
+
+main{
+  border-right: 8px groove #d9dbd3;
+  border-bottom: 8px groove #d9dbd3;
+  padding:200px 40px;
+  height:200px;
+  width:150px;
+  text-align: center;
+  background-color: rgb(212, 185, 255);
+}
+
+footer{
+  border-top: 8px groove #d9dbd3  ;
+  text-align: center;
+  background-color: peachpuff;
+  width:auto;
+  height: auto;
+}

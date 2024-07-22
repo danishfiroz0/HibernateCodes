@@ -1,0 +1,16 @@
+<hibernate-mapping>  
+     
+    <class name="com.pwskills.danish.bean.Studnt" table="Milf">  
+ 
+      <!--  Primary key generator -->  
+      <id name = "sid" type = "int" column = "sid">
+         <generator class="assigned"/>
+         
+      </id>    
+         <property name = "sname" column = "sname" type = "string"/>
+         <property name = "sage" column = "sage" type = "int"/>
+         <property name = "saddress" column = "saddress" type = "string"/>
+      
+   </class>
+             
+</hibernate-mapping>

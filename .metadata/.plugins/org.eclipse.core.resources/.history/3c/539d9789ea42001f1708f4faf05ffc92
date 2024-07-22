@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+<body>
+
+    <header>
+            Physics Wallah Private Limited
+    </header>
+
+    <main>
+        <nav>
+            <h3>
+                <a href="addform.html" target="_blank">ADD</a><br /><br />
+                <a href="searchform.html" target="_blank">SELECT</a><br /><br />
+                <a href="updateform.html" target = "_blank">UPDATE</a><br /><br />
+                <a href="deleteform.html" target="_blank">DELETE</a><br />
+            </h3>
+        </nav>
+        <marquee>
+			Welcome to iNeuron Physics Wallah....
+		</marquee>
+    </main>
+    <footer>
+        Physics Wallah, katamnalur road,Brigade towers bengaluru 560035
+    </footer>
+
+</body>
+</html>

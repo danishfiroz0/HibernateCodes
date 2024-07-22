@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;pk&apos; from expression &apos;session.save(std)&apos;&#x0A;- Original project: &apos;HibernatePart1-01&apos;&#x0A;- Variable name: &apos;pk&apos;&#x0A;- Destination method: &apos;com.pwskills.danish.main.MainApp.main(...)&apos;&#x0A;- Variable expression: &apos;session.save(std)&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;pk&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.pwskills.danish.main{MainApp.java" name="pk" replace="true" replaceAllInThisFile="false" selection="674 17" stamp="1716193356201" varType="false" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+<hibernate-mapping>  
+     
+    <class name="com.pwskills.danish.bean.Student" table="Student">  
+ 
+      <!--  U -->  
+      <id name = "sid" type = "int" column = "sid">
+         <generator class="native"/>
+         
+      </id>    
+         <property name = "sname" column = "sname type = "string"/>
+         <property name = "sage" column = "sname" type = "string"/>
+         <property name = "sage" column = "zipCode" type = "string"/>
+      
+   </class>
+             
+</hibernate-mapping>

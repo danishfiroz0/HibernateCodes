@@ -1,0 +1,47 @@
+
+
+
+
+package com.pwskills.danish.main;
+
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.query.Query;
+
+import com.pwskill.danish.util.hibernateUtil;
+import com.pwskills.danish.bean.InsurancePolicy;
+
+public class EntityQuery_allcolulmns {
+	
+	public static void main(String[] args) {
+		
+		Session session = null;
+		Query<InsurancePolicy> query = null;
+		int count = -;
+		
+		
+		try {
+			session = hibernateUtil.getSession();
+			
+			query = session.createQuery("update com.pwskills.danish.bean.InsurancePolicy set tenure=tenure+:addyears where policyName like:initialletters"); 
+			query.setParameter("addyears", 5);
+			query.setParameter("initialletters", "J%");
+			
+			count = query.executeUpdate();
+			
+			
+		
+		} catch(HibernateException he) {
+			he.printStackTrace();
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			
+			if(session != null) {
+				hibernateUtil.closeResources(session);
+			}
+		}
+	} 
+	
+}

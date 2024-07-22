@@ -1,0 +1,21 @@
+<hibernate-mapping>  
+     
+      <!-- The <class> elements denotes  specific mappings 
+         from a Java classes to the database tables. 
+         The Java class name is given at the name attribute
+         database table name is given using the table attribute.-->
+    <class name="com.gfg.componentmapping.pojo.Student" table="Student">  
+ 
+      <!--  Unique ID to the Primary Key of the database table -->  
+      <id name = "sid" type = "int" column = "sid">
+         <generator class="native"/>
+         
+      </id>    
+         <property name = "streetName" column = "streetName" type = "string"/>
+         <property name = "cityName" column = "cityName" type = "string"/>
+         <property name = "stateName" column = "stateName" type = "string"/>
+         <property name = "zipCode" column = "zipCode" type = "string"/>
+      
+   </class>
+             
+</hibernate-mapping>
